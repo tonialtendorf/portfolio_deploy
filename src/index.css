@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif
+}  
+
+body{
+  background: #EDC7B7;
+}
+
+h1, h2, h3, h4, p, a{
+  color: #123C69;
+  text-decoration: none;
+
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn {
+  padding: 10px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: #BAB2B5;
+  color: black;
+  border: 1px solid white;
+  font-weight: 600;
+  border-radius: 20px;
+  
+}
+
+.btn-light {
+  background: transparent;
+  color: white
+}
+
+.btn:hover {
+  background: darkgray;
+  color: white;
+}
